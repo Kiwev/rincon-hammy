@@ -2,9 +2,6 @@
 html {
   font-family: 'Ultima Pro', sans-serif, 'roboto';
   background-color: #eeeeee;
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 10px 10px 10px;
 }
 
 /* Estilos de la fuente personalizada */
@@ -167,3 +164,44 @@ strong {
   .food-table tr:hover {
     background-color: #e0e0e0;
   }
+
+  .resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
